@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v ~/.aws:/root/.aws -v ~/.saml2aws:/root/.saml2aws nordcloudaws "$@"
